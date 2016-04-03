@@ -3,6 +3,7 @@ int bin_search(int str[],int n,int key){
 	low=0;
 	high=n-1;
 	while(low<=high){
+		//mid=low+(key-a[low]/a[high]-a[low])*(high-low);²åÖµ²éÕÒ
 		mid=(low+high)/2;
 		if(str[mid]==key){
 			return mid;
