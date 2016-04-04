@@ -6,8 +6,8 @@ typedef struct BiTNode{
 }BiTNode,*BiTree;
 //递归查找二叉排序树T中是否存在key
 //指针f指向T的双亲，其初始值调用值为NULL
-//若查找成功，则指针p指向该数据元素节点，并返回TRUE
-//否则p指向查找路径上访问的最后一个节点，并返回FALSE
+//若查找成功，则指针p指向该数据元素节点，并返回TRUE 1
+//否则p指向查找路径上访问的最后一个节点，并返回FALSE -1
 int SearchBST(BiTree T,int key,BiTree f,BiTree *p){
 	if(!T){//查询失败
 		*p=f;
