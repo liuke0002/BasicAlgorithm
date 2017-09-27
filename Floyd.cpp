@@ -3,9 +3,9 @@
 #define MAX_VERTEX_NUM 100
 #define MAX_INT 10000
 typedef int AdjType;
-typedef char VType;//设顶点类型为字符类型
+typedef char VType;//脡猫露楼碌茫脌脿脨脥脦陋脳脰路没脌脿脨脥
 typedef struct{
-	VType V[MAX_VERTEX_NUM];//顶点存储空间
+	VType V[MAX_VERTEX_NUM];//露楼碌茫麓忙麓垄驴脮录盲
 	AdjType A[MAX_VERTEX_NUM][MAX_VERTEX_NUM];
 }MGraph;
 void Floyd(MGraph *G,int path[][MAX_VERTEX_NUM],int D[][MAX_VERTEX_NUM],int n){
@@ -34,7 +34,7 @@ void Floyd(MGraph *G,int path[][MAX_VERTEX_NUM],int D[][MAX_VERTEX_NUM],int n){
 int main(){
 	int i,j,k,v=0,n,ajdm;
 	int path[MAX_VERTEX_NUM][MAX_VERTEX_NUM];
-	//打印最短路径的path
+	//麓貌脫隆脳卯露脤脗路戮露碌脛path
 	k=path[x][y];
 	printf("%d ",x);
 	while(k!=y){
@@ -45,3 +45,5 @@ int main(){
 	return 0;
 
 }
+
+61273812739812891278912
