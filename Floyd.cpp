@@ -1,11 +1,11 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include<stdio.h>
 #define MAX_VERTEX_NUM 100
 #define MAX_INT 10000
 typedef int AdjType;
-typedef char VType;//Éè¶¥µãÀàĞÍÎª×Ö·ûÀàĞÍ
+typedef char VType;//Ã‰Ã¨Â¶Â¥ÂµÃ£Ã€Ã ÃÃÃÂªÃ—Ã–Â·Ã»Ã€Ã ÃÃ
 typedef struct{
-	VType V[MAX_VERTEX_NUM];//¶¥µã´æ´¢¿Õ¼ä
+	VType V[MAX_VERTEX_NUM];//Â¶Â¥ÂµÃ£Â´Ã¦Â´Â¢Â¿Ã•Â¼Ã¤
 	AdjType A[MAX_VERTEX_NUM][MAX_VERTEX_NUM];
 }MGraph;
 void Floyd(MGraph *G,int path[][MAX_VERTEX_NUM],int D[][MAX_VERTEX_NUM],int n){
@@ -34,7 +34,7 @@ void Floyd(MGraph *G,int path[][MAX_VERTEX_NUM],int D[][MAX_VERTEX_NUM],int n){
 int main(){
 	int i,j,k,v=0,n,ajdm;
 	int path[MAX_VERTEX_NUM][MAX_VERTEX_NUM];
-	//´òÓ¡×î¶ÌÂ·¾¶µÄpath
+	//Â´Ã²Ã“Â¡Ã—Ã®Â¶ÃŒÃ‚Â·Â¾Â¶ÂµÃ„path
 	k=path[x][y];
 	printf("%d ",x);
 	while(k!=y){
@@ -46,5 +46,6 @@ int main(){
 
 }
 
-
 ashjdhaskjaskjhaskhask
+
+61273812739812891278912
